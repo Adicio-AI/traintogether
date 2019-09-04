@@ -1,0 +1,144 @@
+baseURL = "https://traintogether.netlify.com/"
+languageCode = "en-us"
+title = "Train Together"
+paginate = 5
+copyright = "Copyright 2019 Nik Heger"
+theme = "vex-hugo"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+  description = "Welcome to Train Together"
+  metadescription = "Train Together Fitness Trainer App"
+  cover = ""
+  author = "Nik Heger"
+  authorlocation = "Earth, Milky Way Galaxy"
+  authorwebsite = ""
+  authorbio= "There's a bio option here..."
+  logo = ""
+  hjsStyle = "default"
+  paginatedsections = ["posts"]
+
+  # Put your custom stylesheets and scripts
+  custom_stylesheets = []
+  custom_scripts = []
+
+  # Additional meta
+  [[params.meta]]
+    name = "Train Together"
+    description = "Train Together Fitness Trainer App"
+
+  # Navigation bar informations
+  [params.navbar]
+    logo = "Train Together"
+    [[params.navbar.menu]]
+      link = "#"
+      text = "HOME"
+    [[params.navbar.menu]]
+      link = "#feature"
+      text = "Features"
+    [[params.navbar.menu]]
+      link = "#gallery"
+      text = "Gallery"
+    [[params.navbar.menu]]
+      link = "#testimonial"
+      text = "Testimonial"
+
+  # Header
+  [params.header]
+    title = "Train Together"
+    text = "The Fitness Trainer's app. Deliver personalised training programs that delight your clients. Provide a level of service that builds profitable, long-term relationships with every client."
+    [params.header.image]
+      path = "images/TT_CreateAssignWorkouts_300x533px.png"
+      alt = "Create & Assign Workouts"
+    [params.header.button]
+      link = "https://apps.apple.com/us/app/train-together-app/id1171370857"
+      text = "Download Now"
+
+  # Features
+  [params.features]
+    title = "Key Features"
+    [params.features.image]
+      path = "images/TT_TrackClientPerformance_300x533px.png"
+      alt = "Track Client Performance"
+    # Menu at the left of the image
+    [[params.features.left]]
+      icon = "tf-ion-ios-chatboxes-outline"
+      title = "Client Dashboard"
+      text = "View client's training activity, their workout detail, diet, and progress against personalised training goals (GDPR Compliant)"
+    [[params.features.left]]
+      icon = "tf-ion-ios-chatboxes-outline"
+      title = "Create & Assign Workouts"
+      text = "Tailor workouts to individual clients and record their progress"
+    [[params.features.left]]
+      icon = "tf-ion-ios-chatboxes-outline"
+      title = "In-App Chat"
+      text = "Send motivational messages and check your client are on track"
+    # Menu at the right of the image
+    [[params.features.right]]
+      icon = "tf-ion-ios-person-outline"
+      title = "Client Performance Stats"
+      text = "All the stats at your finger-tips to help assess and guide your client's progress"
+    [[params.features.right]]
+      icon = "tf-ion-ios-carrot-outline"
+      title = "Diet & Recipies"
+      text = "Our AI generates dietary guides for your clients together with detailed recipies for wholesome nourishment and maximum post-exercise recovery"
+    [[params.features.right]]
+      icon = "tf-ion-ios-book-outline"
+      title = "1-to-1 Personalised Training Programs"
+      text = "Build long-term relationships with your clients based on top quality service"
+
+  [params.promo]
+    title = "Designed by fitness profesionals"
+    text = "Train Together is personal training software that is actually personal. We have a strong belief in developing relationships. That belief was our focus in building this app. We make it easy to create customizable and personal fitness plans for your clients without managing a spreadsheet. Delivery these workouts with ease, so you can focus on growing your relationship with your clients. We've created an easy way to communicate with your clients all within one centralized location. Turn your communication with your clients into a news feed to keep them up-to-date and to stimulate interaction."
+    [params.promo.image]
+      path = "images/showcase/Award.png"
+      alt = "Award"
+
+  [params.feature_list]
+    title = "Why Train Together?"
+    [[params.feature_list.items]]
+      image = "images/woman_jump_edit.jpg"
+      title = "For Fitness Clients"
+      text = "List client benefits: Tea, Coffee, Milk, Green Tea, Chicken Stock"
+      button_link = ""
+      button_text = "Check Features"
+    [[params.feature_list.items]]
+      image = "images/never_train_alone_crop.jpg"
+      title = "For Fitness Trainers"
+      text = "Organise your business, delight your customers, and maximum your revenue with Train Together."
+      button_link = ""
+      button_text = "Check Features"
+
+  [params.gallery]
+    title = "Comprehensive Fitness Client Management"
+    directory = "images/showcase"
+    images = ["Daily_Progress_&_Encouragement.png", "Client_Management.png", "Workout_Stacks.png", "Track_Progress.png", "Award.png", "Workout_Detail_Partial.png", "Add_Workouts.png", "Client_Workout_Set_Up.png"]
+
+  [params.call_to_action]
+    title = "Launch Invitation"
+    text = "Sign up here for your Train Together launch invitation."
+    placeholder = "Your Email Address Here"
+    button_text = "Invite Me!"
+
+  [params.testimonials]
+    title = "Feedback"
+    [[params.testimonials.blocks]]
+      text = "Nothing beats personal instruction. Train Together enables me to lead all of my clients while at the same time tailoring their workouts and fitness regimes to their individual needs. Daily contact makes sure no-one feels left-out. I am quite sure that client retension is improved too. Since we started using Train Together we have had no drop-outs in the past four months. Impressive."
+      name = "Pete Loughton"
+      position = "Head of Training, Green Park Gyms"
+      image = "images/avater.png"
+    [[params.testimonials.blocks]]
+      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of a tranquil existence."
+      name = "Buttercup Fisher-Throgmorton"
+      position = "Tantric Therapist"
+      image = "images/avater.png"
+    [[params.testimonials.blocks]]
+	  text = "As a physical training instructor I am always on the look-out for ways to help my recruits succeed. Train Together hits the spot. I can manage their workouts, increase intensity, and give the bastards a proper beasting, all within the app. And you know the best part? There's a built-in chat client for providing encouragement or a kick up the arse. Perfect."
+      name = "John Price"
+      position = "PT Instructor, 22 Special Air Service"
+      image = "images/avater.png"
+    [params.testimonials.button]
+      link = "https://apps.apple.com/us/app/train-together-app/id1171370857"
+      text = "Download Now"
+
+  # Footer uses navbar data
