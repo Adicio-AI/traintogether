@@ -48,7 +48,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     title = "Train Together"
     text = "The Fitness Trainer's app. Deliver personalised training programs that delight your clients. Provide a level of service that builds profitable, long-term relationships with every client."
     [params.header.image]
-      path = "images/TT_CreateAssignWorkouts_300x533px.png"
+      path = "images/showcase/Client_Management.png"
       alt = "Create & Assign Workouts"
     [params.header.button]
       link = "https://apps.apple.com/us/app/train-together-app/id1171370857"
@@ -58,11 +58,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.features]
     title = "Key Features"
     [params.features.image]
-      path = "images/TT_TrackClientPerformance_300x533px.png"
+      path = "images/Track_Client_Performance_Alpha.png"
       alt = "Track Client Performance"
     # Menu at the left of the image
     [[params.features.left]]
-      icon = "tf-ion-ios-chatboxes-outline"
+      icon = "Hello"
       title = "Client Dashboard"
       text = "View client's training activity, their workout detail, diet, and progress against personalised training goals (GDPR Compliant)"
     [[params.features.left]]
