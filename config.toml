@@ -58,7 +58,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.features]
     title = "Key Features"
     [params.features.image]
-      path = "images/Track_Client_Performance_Alpha.png"
+      path = "images/features_317x600.png"
       alt = "Track Client Performance"
     # Menu at the left of the image
     [[params.features.left]]
@@ -91,7 +91,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     title = "Designed by fitness profesionals"
     text = "Train Together is personal training software that is actually personal. We have a strong belief in developing relationships. That belief was our focus in building this app. We make it easy to create customizable and personal fitness plans for your clients without managing a spreadsheet. Delivery these workouts with ease, so you can focus on growing your relationship with your clients. We've created an easy way to communicate with your clients all within one centralized location. Turn your communication with your clients into a news feed to keep them up-to-date and to stimulate interaction."
     [params.promo.image]
-      path = "images/showcase/Award.png"
+      path = "images/Train_Together_sm_Start.png"
       alt = "Award"
 
   [params.feature_list]

@@ -1,6 +1,7 @@
 /*--
     Common Css
 --*/
+
 body {
   font-size: 16px;
   font-weight: 300;
@@ -58,7 +59,7 @@ a {
   margin-top: 100px; }
 
 .bg-1 {
-  background-image: url(/images/splash-unsplash.jpg); }
+  background-image: url(/images/jordan_opel_unsplash_one_quarter_chroma_1600x1286.jpg); }
 
 .bg-opacity {
   position: relative; }
@@ -107,12 +108,21 @@ a:active {
 /*--
     custom heading
 --*/
+top-nav {
+  color: #808080;
+  background-color: #f9a743;
+  padding-bottom: 15px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 45px; }
+
 .text-center {
   text-align: center; }
 
 .heading {
   text-align: center;
-  color: #777777;
+  color: red;
   padding-bottom: 70px; }
   .heading h2 {
     color: #3c3c3c;
@@ -282,7 +292,7 @@ a:active {
 .logo {
   display: inline-block; }
   .logo h1 {
-    color: #444;
+    color: #808080;
     font-size: 25px;
     margin: 0;
     line-height: 1; }
@@ -293,11 +303,11 @@ a:active {
     display: inline-block;
     margin: 0 10px; }
     .menu li a {
-      color: #444;
+      color: #fff;
       font-size: 16px;
       font-weight: bold; }
       .menu li a:hover, .menu li a:focus {
-        background: none; }
+        background: #fff; }
 
 /*--
     feature start
