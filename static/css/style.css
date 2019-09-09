@@ -152,8 +152,8 @@ a:active {
   background-image: -webkit-linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
   background-image: linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%); }
   .btn-main:hover, .btn-main:focus {
-    background-color: #f9a743;
-    color: #fff; }
+    background-color: blue;
+    color: white; }
 
 .btn-main-sm {
   padding: 12px 35px;

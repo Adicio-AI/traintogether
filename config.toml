@@ -48,7 +48,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     title = "Train Together"
     text = "The Fitness Trainer's app. Deliver personalised training programs that delight your clients. Provide a level of service that builds profitable, long-term relationships with every client."
     [params.header.image]
-      path = "images/showcase/Client_Management.png"
+      path = "images/showcase/TimeUnderLoadwthAppleX_final_sm3_whitebd.png"
       alt = "Create & Assign Workouts"
     [params.header.button]
       link = "https://apps.apple.com/us/app/train-together-app/id1171370857"
