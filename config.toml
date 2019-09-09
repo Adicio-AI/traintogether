@@ -62,28 +62,28 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       alt = "Track Client Performance"
     # Menu at the left of the image
     [[params.features.left]]
-      icon = "Hello"
+      icon = "fa fa-address-card"
       title = "Client Dashboard"
       text = "View client's training activity, their workout detail, diet, and progress against personalised training goals (GDPR Compliant)"
     [[params.features.left]]
-      icon = "tf-ion-ios-chatboxes-outline"
+      icon = "fa fa-clipboard"
       title = "Create & Assign Workouts"
       text = "Tailor workouts to individual clients and record their progress"
     [[params.features.left]]
-      icon = "tf-ion-ios-chatboxes-outline"
+      icon = "far fa-comments"
       title = "In-App Chat"
       text = "Send motivational messages and check your client are on track"
     # Menu at the right of the image
     [[params.features.right]]
-      icon = "tf-ion-ios-person-outline"
+      icon = "fa fa-tachometer-alt"
       title = "Client Performance Stats"
       text = "All the stats at your finger-tips to help assess and guide your client's progress"
     [[params.features.right]]
-      icon = "tf-ion-ios-carrot-outline"
+      icon = "fas fa-blender"
       title = "Diet & Recipies"
       text = "Our AI generates dietary guides for your clients together with detailed recipies for wholesome nourishment and maximum post-exercise recovery"
     [[params.features.right]]
-      icon = "tf-ion-ios-book-outline"
+      icon = "fa fa-handshake"
       title = "1-to-1 Personalised Training Programs"
       text = "Build long-term relationships with your clients based on top quality service"
 

@@ -1,11 +1,10 @@
 {{- with .Site.Params.navbar }}
 <footer>
-<script defer src="/static/js/fontawesome.js"></script>
+<script defer src="/static/js/fontawesome.min.js"></script>
   <div class="container text-center">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <a href="{{.Site.BaseURL}}" class="footer-logo">{{ .logo }}</a>
           <ul class="menu">
           {{- range .menu }}
             <li>
@@ -14,7 +13,7 @@
           {{- end }}
           </ul>
           <p class="copyright-text"><i class="fa fa-copyright" aria-hidden="true"></i>
- 2019 <a href="http://www.traintogether.com">Train Together LLC</a>| All rights reserved</p>
+ 2019 <a href="http://www.traintogether.com">Train Together LLC</a>| All rights reserved</p><i class="far fa-grin-beam-sweat"></i>
         </div>
       </div>
     </div>

@@ -89,7 +89,7 @@ a:active {
 /*--
     style svg icons fontawesome
 --*/
-.inlinesvg {
+.inline-svg {
   color: black
   display: inline-flex;
   height: 1.15rem;
@@ -194,7 +194,7 @@ top-nav {
   position: relative;
   font-family: "Quattrocento Sans" }
   .pre-loader:before {
-    content: "\f3bd";
+    content: "Hi!";
     position: absolute;
     top: 50%;
     left: 50%;
